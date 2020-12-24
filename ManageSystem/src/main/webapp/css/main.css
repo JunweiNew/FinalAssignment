@@ -1,0 +1,507 @@
+@charset "utf-8";
+
+A:link {
+	color: #1176D0;
+	text-decoration: none;
+}
+
+A:visited {
+	color: #FF7F00;
+	text-decoration: none;
+}
+
+A:hover {
+	color: #AA00AA;
+	text-decoration: none;
+}
+
+A.pageLabelLink:link {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FFFFFF;
+	text-decoration: none;
+}
+
+A.pageLabelLink:visited {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FFFFFF;
+	text-decoration: none;
+}
+
+A.pageLabelLink:hover {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FF7F00;
+	text-decoration: none;
+}
+
+A.pageLabelFocusLink:link {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FF7F00;
+	text-decoration: none;
+}
+
+A.pageLabelFocusLink:visited {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FF7F00;
+	text-decoration: none;
+}
+
+A.pageLabelFocusLink:hover {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FF7F00;
+	text-decoration: none;
+}
+
+A.sortheader:link {
+	color: white;
+	text-decoration: none;
+}
+
+A.sortheader:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+A.sortheader:hover {
+	color: #FFCC33;
+	text-decoration: none;
+}
+
+.STYLE1 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.STYLE31 {
+	color: #444444;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.style35 {
+	font-family: "SimSun";
+	font-size: 12px;
+}
+
+.style3 {
+	color: #FF0000;
+}
+
+.submitButton {
+	border-right: #7b9ebd 1px solid;
+	padding-right: 2px;
+	border-top: #7b9ebd 1px solid;
+	padding-left: 2px;
+	font-size: 12px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+		StartColorStr=#ffffff, EndColorStr=#cecfde);
+	border-left: #7b9ebd 1px solid;
+	cursor: hand;
+	color: black;
+	padding-top: 2px;
+	border-bottom: #7b9ebd 1px solid;
+}
+
+.currentPosition {
+	font-family: "SimSun";
+	font-size: 12px;
+	width: 98%;
+	margin-top: 5px;
+	padding: 0;
+}
+
+.queryTableTitle {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FFFFFF;
+	background-image: url(../images/bg04.gif);
+	height: 24px;
+}
+
+.queryTable {
+	border: 1px outset #D0D5D9;
+	width: 98%;
+	margin-top: 5px;
+	font-family: "SimSun";
+	font-size: 12px;
+	background-color: #FFFFFF;
+}
+
+.queryTable th {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FFFFFF;
+	background-image: url(../images/bg04.gif);
+	height: 24px;
+}
+
+.queryTable td {
+	BORDER-RIGHT: 1px none #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "SimSun";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+	border-bottom-color: #E1E1E1;
+}
+
+.queryFormTable {
+	width: 100%;
+	height: 22px;
+	border-top: none;
+}
+
+.queryFormTable td {
+	border: 0px;
+}
+
+.applyForm {
+	color: Black;
+	font-family: SimSun;
+	font-size: 9pt;
+	margin-top: 10px;
+	border: thick outset #D0D5D9;
+	width: 90%;
+}
+
+.applyForm th {
+	color: Black;
+	font-family: SimSun;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.applyForm td {
+	BORDER-RIGHT: 1px solid #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "SimSun";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E1E1E1;
+	text-align: center;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+}
+
+.resultTableTitle {
+	background-image: url(../images/bg07.gif);
+	border: none;
+	width: 98%;
+	height: 22px;
+	margin-top: 5px;
+}
+
+.resultTable {
+	border: 1px solid #7892AB;
+	width: 98%;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+}
+
+.resultTable th {
+	background-color: #7892AB;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "SimSun";
+	height: 22px;
+}
+
+.resultTable td {
+	BORDER-RIGHT: 1px solid #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "SimSun";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E1E1E1;
+	text-align: center;
+}
+
+.iframeResultTableTitle {
+	background-image: url(../images/bg07.gif);
+	border: none;
+	width: 100%;
+	height: 22px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.iframeResultTable {
+	border: 1px solid #7892AB;
+	width: 100%;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+}
+
+.iframeResultTable th {
+	background-color: #7892AB;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "SimSun";
+	height: 22px;
+}
+
+.iframeResultTable td {
+	BORDER-RIGHT: 1px solid #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "SimSun";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E1E1E1;
+	text-align: center;
+}
+
+.addModifyForm {
+	color: Black;
+	font-family: SimSun;
+	font-size: 9pt;
+	margin-top: 5px;
+	border: thin ridge;
+	width: 98%;
+	border-collapse: collapse;
+}
+
+.addModifyForm th {
+	FONT: bold 14px/normal "SimSun";
+	COLOR: #FFFFFF;
+	background-image: url(../images/bg04.gif);
+	height: 22px;
+	border-top-color: #E1E1E1;
+	border-right-color: #E1E1E1;
+	border-bottom-color: #E1E1E1;
+	border-left-color: #E1E1E1;
+}
+
+.addModifyForm td {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	FONT: 12px "SimSun";
+	TEXT-DECORATION: none;
+	border: 1px solid #E1E1E1;
+}
+
+.refImg {
+	border: 0px;
+	width: auto;
+	height: auto;
+}
+
+.pageLabel {
+	background-image: url(../images/bg04.gif);
+	height: 22px;
+	FONT: 12px/normal "SimSun";
+	COLOR: #FFFFFF;
+	width: 98%;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top: 1px solid #7892AB;
+	border-right: 1px #7892AB;
+	border-bottom: 1px #7892AB;
+	border-left: 1px #7892AB;
+}
+
+.pageLabelAddModifyForm {
+	color: Black;
+	font-family: SimSun;
+	font-size: 9pt;
+	margin-top: 15px;
+	border: thin ridge;
+	width: 98%;
+	border-collapse: collapse;
+}
+
+.pageLabelAddModifyForm th {
+	color: #444444;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "SimSun";
+	background-image: url(../images/bg07.gif);
+	height: 22px;
+}
+
+.pageLabelAddModifyForm td {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	FONT: 12px "SimSun";
+	TEXT-DECORATION: none;
+	border: 1px solid;
+}
+
+.pageLabelResultTableTitle {
+	background-image: url(../images/bg07.gif);
+	border: none;
+	width: 98%;
+	height: 22px;
+	margin-top: 15px;
+}
+
+.messageBoard {
+	width: 98%;
+	margin-top: 5px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+}
+
+.messageBoard th {
+	font-family: "SimSun";
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: blink;
+	background-image: url(../images/bg07.gif);
+	height: 22px;
+}
+
+.messageBoard td {
+	BORDER-RIGHT: 1px solid #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "SimSun";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E1E1E1;
+}
+
+.mainTitle {
+	FONT: bold 12px/normal "SimSun";
+	COLOR: #FFFFFF;
+	background-image: url(../images/bg04.gif);
+	height: 24px;
+	margin-top: 5px;
+	width: 98%;
+}
+
+#cmenu1 {
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	visibility: hidden;
+}
+
+#c01, #c02, #c03, #c04, #c05, #c06 {
+	position: absolute;
+	left: 10px;
+	top: 50px;
+	visibility: hidden;
+}
+
+.classroom {
+	margin-top: 15px;
+	width: 98%;
+}
+
+.classroom td {
+	BORDER-RIGHT: 1px solid #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "SimSun";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E1E1E1;
+	text-align: center;
+}
+
+.inquiryQuestionnaire {
+	color: Black;
+	font-family: SimSun;
+	font-size: 9pt;
+	margin-top: 5px;
+	border: thin ridge;
+	width: 98%;
+	border-collapse: collapse;
+}
+
+.inquiryQuestionnaire th {
+	font-family: "SimSun";
+	font-size: 14px;
+	font-weight: bolder;
+	border: 1px solid #718597;
+	height: 35px;
+}
+
+.inquiryQuestionnaire td {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	FONT: 14px "SimSun";
+	TEXT-DECORATION: none;
+	border: 1px solid #718597;
+	height: 30px;
+}
+
+.colorBody {
+	background-color: #EFEEF7;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.display {
+	display: "block";
+	margin-top: 0px;
+}
+
+.nondisplay {
+	display: "none";
+	margin-top: 0px;
+}
+
+.mouseRightKey {
+	background-image: url(../images/bg07.gif);
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+table {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+tr {
+	height: 10;
+}
+
+td, th {
+	font-size: 12px;
+}

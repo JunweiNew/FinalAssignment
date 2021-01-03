@@ -8,6 +8,19 @@ public class Department {
 	private String depMobile;
 	private String depEmail;
 	private String depLeader;
+	
+	public Department(){}
+	
+	public Department(String depName, String depNumber, String depPhone, String depMobile, String depEmail, String depLeader)
+	{
+		this.depName = depName;
+		this.depNumber = depNumber;
+		this.depPhone = depPhone;
+		this.depMobile = depMobile;
+		this.depEmail = depEmail;
+		this.depLeader = depLeader;
+	}
+	
 	public int getDepId() {
 		return depId;
 	}

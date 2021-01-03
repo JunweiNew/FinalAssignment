@@ -46,6 +46,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					class="STYLE31">Admin information&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
 			</tr>
 			<tr>
+				<td align="right">Please input username:<font color="red">*</font></td>
+				<td><input type="text" name="username" id="username" /></td>
+			</tr>
+			<tr>
 				<td align="right">Please input password:<font color="red">*</font></td>
 				<td><input type="text" name="password" id="password" /></td>
 			</tr>

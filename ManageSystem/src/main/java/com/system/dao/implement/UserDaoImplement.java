@@ -8,13 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-import javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction;
-
 import com.system.admin.entry.Admin;
-import com.system.dao.DepartmentDao;
-import com.system.dao.EmployeeDao;
 import com.system.dao.UserDao;
-import com.system.employee.entry.Employee;
 import com.system.employee.util.DBUtil;
 
 public class UserDaoImplement implements UserDao {

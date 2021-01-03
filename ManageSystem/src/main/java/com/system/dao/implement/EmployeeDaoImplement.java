@@ -439,9 +439,4 @@ public class EmployeeDaoImplement implements EmployeeDao{
 			return true;
 		}
 	}
-
-	public List<Employee> findallEmployee() {
-		return null;
-	}	
-
 }

@@ -28,7 +28,7 @@ public class Employee {
 		this.setEmail(email);
 		this.setIdCard(idCard);
 		this.setAddress(address);
-		this.setPhone(phone);
+		this.setPost(post);
 		
 	}
 	

@@ -214,7 +214,7 @@
   
   <servlet-mapping>
 	<servlet-name>DelAdminServlet</servlet-name>
-	<url-pattern>/DelAdminServlet</url-pattern>
+	<url-pattern>/employee/DelAdminServlet</url-pattern>
   </servlet-mapping>
 	  
   <servlet-mapping>

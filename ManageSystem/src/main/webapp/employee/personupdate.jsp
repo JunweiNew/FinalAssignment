@@ -1,6 +1,6 @@
 <%@ page language="java"
 	import="java.util.*,com.system.employee.entry.*"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -76,9 +76,8 @@ String duty = emps.get(0).getEmpJob();
 			</tr>
 			<tr>
 				<td align="right">sex:<font color="red">*</font></td>
-				<td><input type="radio" name="sex" id== "sex" value="男"
-					<%=sex.equals("男")?"checked":"" %> />男 <input type="radio"
-					name="sex" id== "sex" value="女" <%=sex.equals("女")?"checked":"" %> />女
+				<td><input type="radio" name="sex" id="sex" value="male" <%=sex.equals("male")?"checked":"" %> />male
+				    <input type="radio" name="sex" id="sex" value="female" <%=sex.equals("female")?"checked":"" %> />female
 				</td>
 			</tr>
 			<tr>

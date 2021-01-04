@@ -1,16 +1,31 @@
-<%@ page language="java"
-	import="java.util.*,com.system.department.entry.*" pageEncoding="utf-8"%>
+<%@ page language="java" import="java.util.*,com.system.department.entry.*" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<%
+	List<Department> deps = (List<Department>)request.getAttribute("deps");
+	
+	//String id     = deps.get(0).getDepId();
+	int id=deps.get(0).getDepId();
+	String name   = deps.get(0).getDepName();
+	String number = deps.get(0).getDepNumber();
+	String phone  = deps.get(0).getDepPhone();
+	String mobile = deps.get(0).getDepMobile();
+	String email  = deps.get(0).getDepEmail();
+	String leader = deps.get(0).getDepLeader(); 
+%>
+	
 <html>
 <head>
+<!--  
 <base href="<%=basePath%>">
+-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>My JSP 'departupdate.jsp' starting page</title>
+<title>Department Update</title>
 
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
@@ -26,39 +41,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 
 <body>
-	<%
-List<Department> deps = (List<Department>)request.getAttribute("deps");
-
-//String id     = deps.get(0).getDepId();
-int id=deps.get(0).getDepId();
-
-
-String name   = deps.get(0).getDepName();
-String number = deps.get(0).getDepNumber();
-String phone  = deps.get(0).getDepPhone();
-String mobile = deps.get(0).getDepMobile();
-String email  = deps.get(0).getDepEmail();
-String leader = deps.get(0).getDepLeader(); 
-%>
-	<table align="center" cellpadding="0" cellspacing="0"
-		class="currentPosition">
+	<table align="center" cellpadding="0" cellspacing="0" class="currentPosition">
 		<tr>
-			<!--     <td width="6" height="22" background="../images/main_top01.gif"></td> -->
-			<td width="1033" background="../images/main_top02.gif">&nbsp;&nbsp;current
-				position:&nbsp;&nbsp;Department management system &gt;&gt; Modify
-				the department information page</td>
-			<!--     <td width="6" height="22" background="../images/main_top03.gif">&nbsp;</td> -->
+			<td width="6" height="22" background="../images/main_top01.gif"></td>
+			<td width="1033" background="../images/main_top02.gif">&nbsp;&nbsp;Current position:&nbsp;&nbsp;Department management system &gt;&gt; Modify department information</td>
+			<td width="6" height="22" background="../images/main_top03.gif">&nbsp;</td>
 		</tr>
 	</table>
-	<form action="UpdataDepServlet" method="post" name="consulterForm"
-		style="margin:0">
-		<table align="center" cellspacing="0" cellpadding="0"
-			class="addModifyForm">
+	<form action="UpdataDepServlet" method="post" name="consulterForm"style="margin:0">
+		<table align="center" cellspacing="0" cellpadding="0" class="addModifyForm">
 			<tr>
-				<th colspan="2" align="left">
-					<!--     <img src="../images/if_modify.gif" width="31" height="18">  -->
-					Modify department information
-				</th>
+				<th colspan="2" align="left"><img src="../images/if_modify.gif" width="31" height="18"> Modify department information</th>
 			</tr>
 			<tr>
 				<td colspan="2" align="center" background="../images/bg07.gif"><span
@@ -66,7 +59,7 @@ String leader = deps.get(0).getDepLeader();
 						Information&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
 			</tr>
 			<tr>
-				<td align="right">department name<font color="red">*</font></td>
+				<td align="right">Department name<font color="red">*</font></td>
 				<td><input type="text" name="depName" id="depName"
 					value="<%=name%>" /></td>
 			</tr>
@@ -86,12 +79,12 @@ String leader = deps.get(0).getDepLeader();
 					id="depMobile" value="<%=mobile %>" /></td>
 			</tr>
 			<tr>
-				<td align="right">post&nbsp;&nbsp;&nbsp;&nbsp;box:&nbsp;&nbsp;</td>
+				<td align="right">Post Box:&nbsp;&nbsp;</td>
 				<td colspan="3"><input name="depEmail" id="depEmail"
 					type="text" size="15" value="<%=email%>"></td>
 			</tr>
 			<tr>
-				<td align="right">the&nbsp;&nbsp;&nbsp;&nbsp;supervisor:&nbsp;&nbsp;</td>
+				<td align="right">The Header:&nbsp;&nbsp;</td>
 				<td colspan="3"><input name="depLeader" id="depLeader"
 					type="text" size="15" value="<%=leader %>"></td>
 			</tr>
